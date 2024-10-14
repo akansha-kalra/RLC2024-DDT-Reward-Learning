@@ -1,0 +1,6 @@
+' num_train_prefs': 2000
+lr: 0.001
+seed: 0
+train_dl_len: 2000
+val_dl_len: 200
+weight_decay: 0.0
