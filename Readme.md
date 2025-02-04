@@ -5,7 +5,10 @@
 </p>
 
 ***Akansha Kalra, Daniel S. Brown***
+
 This repository contains a code used to conduct experiments reported in the paper on Atari , Visual MNIST Gridworls and Cartpole. 
+
+***For detailed instructions to run experiments on that domain, please refer to Readme under each folder/domain respectively.***
 <p align=center>
   <img src='assets/breakout1_cropped.png' width=500>
 </p>
