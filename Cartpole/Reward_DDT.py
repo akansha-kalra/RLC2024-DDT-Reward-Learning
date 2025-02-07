@@ -224,8 +224,8 @@ def train(ddt,train_dl, optimizer,val_dl, num_epochs,save_model_dir='.',exp_no=0
             print("Val Loss per epoch", val_loss_per_epoch)
             val_acc_per_epoch = val_acc_counter / (len(val_dl)*len(val_pref_demo)) * 100
             print("VAL Accuracy per epoch", val_acc_per_epoch)
-            writer.add_scalar('Val Loss per epoch', training_loss_per_epoch, epoch)
-            writer.add_scalar('Val Accuracy per epoch', training_acc_per_epoch, epoch)
+            writer.add_scalar('Val Loss per epoch', val_loss_per_epoch, epoch)
+            writer.add_scalar('Val Accuracy per epoch', val_acc_per_epoch, epoch)
             '''use this for ReduceLRonPlateau- NOT USING IT RIGHT NOW'''
             # if lr_scheduler is not None:
             #     scheduler.step(val_loss_per_epoch)
