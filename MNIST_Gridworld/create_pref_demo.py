@@ -49,7 +49,6 @@ def cre_traj(total_traj,data_loader):
 
 
 def create_training_data(demonstrations, demos_true_reward,pref_demos):
-    '''pref counter - if want to specify no of pref trajectories to be created-skip until loss thing resolved'''
     pref_counter=0
     training_obs = []
     training_labels = []
