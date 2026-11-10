@@ -96,7 +96,6 @@ def create_training_data(demonstrations, demos_true_reward,pref_demos):
     return training_obs, training_labels,tensor_pairwise_demos,d
 
 def create_balanced_training_data(demonstrations, demos_true_reward,individual_num_comparison):
-    '''pref counter - if want to specify no of pref trajectories to be created-skip until loss thing resolved'''
     pref_counter=0
     training_obs = []
     training_labels = []
